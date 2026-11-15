@@ -1,0 +1,88 @@
+{
+  "humidity": ["average", "wet", "dry"],
+  "humidity_colours": ["f4f1de", "3d405b", "e07a5f"],
+  "temperature": ["hot", "warm", "cool", "icy"],
+  "temperature_colours": ["e9afa3", "f9dec9", "aec5eb", "3a405a"],
+  "biomes": {
+    "hot": {
+      "average": [
+        {"name": "Plains"},
+        {"name": "Mutated Plains"},
+        {"name": "Woodlands", "mod": "Traverse"}
+      ],
+      "wet": [
+        {"name": "Jungle"},
+        {"name": "Swampland"},
+        {"name": "Mini Jungle", "mod": "Traverse"}
+      ],
+      "dry": [
+        {"name": "Red Desert", "mod": "Traverse"},
+        {"name": "Desert"},
+        {"name": "Mesa"}
+      ]
+    },
+    "warm": {
+      "average": [
+        {"name": "Forest"},
+        {"name": "Birch Forest"},
+        {"name": "Mutated Forest"},
+        {"name": "Mutated Birch Forest"},
+        {"name": "Autumnal Woods", "mod": "Traverse"},
+        {"name": "Meneglin", "mod": "Integrated Dynamics"},
+        {"name": "Meadow", "mod": "Traverse"}
+      ],
+      "wet": [
+        {"name": "Roofed Forest"},
+        {"name": "Temperate Rainforest", "mod": "Traverse"},
+        {"name": "Lush Hills", "mod": "Traverse"},
+        {"name": "Green Swamp", "mod": "Traverse"}
+      ],
+      "dry": [
+        {"name": "Badlands", "mod": "Traverse"},
+        {"name": "Savanna"}
+      ]
+    },
+    "cool": {
+      "average": [
+        {"name": "Taiga"},
+        {"name": "Darklands Forest", "mod": "AbyssalCraft"},
+        {"name": "Darklands", "mod": "AbyssalCraft"}
+      ],
+      "wet": [
+        {"name": "Coralium Infested Swamp", "mod": "AbyssalCraft"},
+        {"name": "Mutated Redwood Taiga"},
+        {"name": "Redwood Taiga"}
+      ],
+      "dry": [
+        {"name": "Extreme Hills"},
+        {"name": "Darklands Plains", "mod": "AbyssalCraft"}
+      ]
+    },
+    "icy": {
+      "average": [
+        {"name": "Snowy Coniferous Forest", "mod": "Traverse"},
+        {"name": "Taiga Cold"}
+      ],
+      "wet": [
+        {"name": "Glacier", "mod": "Traverse"},
+        {"name": "Glacier Spikes", "mod": "Traverse"}
+      ],
+      "dry": [
+        {"name": "Ice Flats"},
+        {"name": "Mutated Ice Flats"}
+      ]
+    }
+  },
+  "climate_map": {
+    "columns": ["average", "wet", "average", "dry"],
+    "rows": ["warm", "hot", "warm", "cool", "icy", "cool"],
+    "data": [
+      ["warm/average", "warm/wet", "warm/average", "warm/dry"],
+      ["hot/average", "hot/wet", "hot/average", "hot/dry"],
+      ["warm/average", "warm/wet", "warm/average", "warm/dry"],
+      ["cool/average", "cool/wet", "cool/average", "cool/dry"],
+      ["icy/average", "icy/wet", "icy/average", "icy/dry"],
+      ["cool/average", "cool/wet", "cool/average", "cool/dry"]
+    ]
+  }
+}

@@ -21,6 +21,10 @@ typst c --font-path=./fonts -f png sevtech-biomes.typ
 The information in this infographic was adopted from this reddit post:
 [SevTech "Heatmap" Breakdown by u/ChaoticNonsense](https://www.reddit.com/r/feedthebeast/comments/8crpq4/sevtech_heatmap_breakdown)
 
+### LLM Disclosure
+This is **not** AI-generated. I made this as an exercise in typst, and to
+benefit others who might be confused.
+
 ## License
 This project is licensed under the Creative Commons Attribution 4.0
 International License (CC BY 4.0).
